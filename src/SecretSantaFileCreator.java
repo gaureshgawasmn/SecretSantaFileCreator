@@ -5,7 +5,7 @@ public class SecretSantaFileCreator {
 
     public static void main(String[] args) {
         // Load participants' data from file
-        Map<String, String> participants = loadParticipants("G:\\GitRepo\\RandomMappingGenerator\\participants.txt");
+        Map<String, String> participants = loadParticipants("G:\\GitRepo\\SecretSantaFileCreator\\participants.txt");
 
         // Map emails to Secret Santa names
         Map<String, String> secretSantaMap = assignSecretSanta(participants);
